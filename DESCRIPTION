@@ -1,8 +1,10 @@
 Package: czdaptools
-Title: What the Package Does (one line, title case)
+Title: Tools for Downloading Zone Data from ICANN's CZDS Application.
 Version: 0.0.0.9000
 Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))
-Description: What the package does (one paragraph).
+Description: Tools for downloading zone data from ICANN's CZDS application.
 Depends: R (>= 3.2.2)
 License: AGPL + file LICENSE
 LazyData: true
+Suggests: testthat
+Imports: httr, jsonlite, parallel
